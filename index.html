@@ -219,7 +219,11 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
@@ -241,7 +245,7 @@ input[type=submit]:hover {
 
 <div class="header">
 <img  src="https://d3u2zkd2fysi3j.cloudfront.net/assets/frontend/bz/logo-15y-08f408f375f915ad1fc24273d5757ab4e7c4c1685c6e1e8ff7d0c0e347e63928.svg" alt="logo face" width="110px" height="110px" align="middle">
-<img src="https://d3u2zkd2fysi3j.cloudfront.net/assets/frontend/bz/polaroids-6c15faf9382c5f782ec03a113885f9ddc88ad6d5d5848e1d3787c7096a081251.jpg" alt="logo face" width="1130px" height="250px" align="middle">
+<img  src="https://d3u2zkd2fysi3j.cloudfront.net/assets/frontend/bz/polaroids-6c15faf9382c5f782ec03a113885f9ddc88ad6d5d5848e1d3787c7096a081251.jpg" alt="logo face" width="1130px" height="250px" align="middle">
   <h1>BandZoogle</h1>
   <h2><b>The website builder created by musicians for musicians</b></h2>
 </div>
